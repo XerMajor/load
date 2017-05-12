@@ -1,6 +1,6 @@
 ﻿namespace Perfmon.Metrics
 {
-    public interface IMetric
+    public interface ICounter
     {
         double? GetValue();
     }

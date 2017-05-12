@@ -13,7 +13,7 @@ namespace Perfmon.Storage
 
         private readonly object _tablesLock = new object(); 
 
-        private const string ConnectionString = "Data Source=perfmon.db;Version=3;";
+        private static readonly string ConnectionString = $"Data Source=Results\\{DateTime.Now.ToString("yyyy_MM_dd_HH_mm_ss")}.db;Version=3;";
 
         private const string NewTableSql = "CREATE TABLE {table} (Timestamp DATETIME, Value REAL)";
 

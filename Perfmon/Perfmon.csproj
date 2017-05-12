@@ -76,10 +76,10 @@
   <ItemGroup>
     <Compile Include="Storage\IStorage.cs" />
     <Compile Include="Storage\Storage.cs" />
-    <Compile Include="Metrics\IMetric.cs" />
-    <Compile Include="Metrics\PerformanceCounterAvg.cs" />
-    <Compile Include="Metrics\PerformanceCounterPerSecond.cs" />
-    <Compile Include="Metrics\PerformanceCounterRaw.cs" />
+    <Compile Include="Metrics\ICounter.cs" />
+    <Compile Include="Metrics\CounterAvg.cs" />
+    <Compile Include="Metrics\Counter.cs" />
+    <Compile Include="Metrics\CounterRaw.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -90,7 +90,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="SQLiteSpy.exe">
+    <Content Include="Results\SQLiteSpy.exe">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
