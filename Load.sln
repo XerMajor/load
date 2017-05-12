@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Load", "Load\Load.csproj", "{E5E2C49A-8FAF-4F2E-8B91-62E7DACAF616}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perfmon", "Perfmon\Perfmon.csproj", "{C10311A6-2902-48D0-B72B-3F0450DF9BED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5E2C49A-8FAF-4F2E-8B91-62E7DACAF616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5E2C49A-8FAF-4F2E-8B91-62E7DACAF616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5E2C49A-8FAF-4F2E-8B91-62E7DACAF616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5E2C49A-8FAF-4F2E-8B91-62E7DACAF616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C10311A6-2902-48D0-B72B-3F0450DF9BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C10311A6-2902-48D0-B72B-3F0450DF9BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C10311A6-2902-48D0-B72B-3F0450DF9BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C10311A6-2902-48D0-B72B-3F0450DF9BED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
