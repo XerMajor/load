@@ -1,13 +1,13 @@
 ﻿using System;
-using Shamsullin.Common.Extensions;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SQLite;
 using System.Linq;
+using Shamsullin.Common.Extensions;
 
-namespace Perfmon
+namespace Perfmon.Storage
 {
-    public class Database
+    public class Storage : IStorage
     {
         private static readonly List<string> Tables; 
 
@@ -17,7 +17,7 @@ namespace Perfmon
 
         private const string NewTableSql = "CREATE TABLE {table} (Timestamp DATETIME, Value REAL)";
 
-        static Database()
+        static Storage()
         {
             using (var connection = new SQLiteConnection(ConnectionString))
             {

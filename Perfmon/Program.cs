@@ -10,7 +10,7 @@ namespace Perfmon
 {
     class Program
     {
-        static readonly Database Db = new Database();
+        static readonly Storage.Storage Db = new Storage.Storage();
 
         static void Main(string[] args)
         {

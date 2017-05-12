@@ -74,7 +74,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Database.cs" />
+    <Compile Include="Storage\IStorage.cs" />
+    <Compile Include="Storage\Storage.cs" />
     <Compile Include="Metrics\IMetric.cs" />
     <Compile Include="Metrics\PerformanceCounterAvg.cs" />
     <Compile Include="Metrics\PerformanceCounterPerSecond.cs" />
